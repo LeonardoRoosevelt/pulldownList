@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/9adde4ff12.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700;900&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container my-5" id="app">
+    <div class="d-flex flex-nowrap h-75">
+      <div class="phone-pic-section mr-5 d-flex justify-content-center">
+        <div class="phone color-sliver shadow-dark" data-color="sliver">
+          <div class="camera shadow-dark d-flex flex-wrap">
+            <div class="lens shadow-dark">
+              <div class="glass"></div>
+            </div>
+            <div class="lens shadow-dark">
+              <div class="glass"></div>
+            </div>
+            <div class="lens shadow-dark">
+              <div class="glass"></div>
+            </div>
+            <div class="lens shadow-dark">
+              <div class="glass"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="phone-info-section">
+        <div class="title d-flex flex-wrap justify-content-start">
+          <h3 class="text-danger mr-auto">五色可選</h2>
+        </div>
+        <h3>aPhone 11 5G (512G)</h3>
+        <ul>
+          <li>6.1 吋 HD LCD 顯示器</li>
+          <li>防潑抗水與防塵功能 (在最深達 2 公尺水中最長可達 30 分鐘，IP68)</li>
+          <li>四相機系統，具備一億1200萬像素超廣角與廣角相機；夜間模式、人像模式與 4K 影片拍攝功能 (最高可達 60 fps)、100倍超高變焦+8K攝影</li>
+          <li>3倍感測超清晰夜拍</li>
+          <li>10000mAh超大電量電池</li>
+          <li>高通S865八核心處理器</li>
+          <li>支援QC3.0快充</li>
+        </ul>
+        <p>網路價：$<span class="text-danger" id="price">36800</span></hp>
+          <div class="select-section">
+            <button class="btn btn-primary select-btn">請選擇顏色</button>
+            <button class="btn btn-danger text-white" id="submit">立即付款</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+  </body>
+</html>
